@@ -27,14 +27,14 @@ namespace senai_wishlist_webAPI.Repositories
                 .FirstOrDefault(p => p.IdWishlist == idWishlist);
         }
 
-        public void Cadastrar(Usuario novoDesejo)
+        public void Cadastrar(Wishlist novoDesejo)
         {
             context.Wishlists.Add(novoDesejo);
 
             context.SaveChanges();
         }
 
-        public List<Wishlist> ListarTodos(int idWishlist)
+        public List<Wishlist> ListarTodos()
         {
             return context.Wishlists
                .Select(w => new Wishlist

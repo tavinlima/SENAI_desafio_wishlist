@@ -5,7 +5,7 @@ namespace senai_wishlist_webAPI.Intefaces
 {
     interface IUsuarioRepository
     {
-        List<Usuario> ListarTodos(int idUsuario);
+        List<Usuario> ListarTodos();
 
         Usuario BuscarPorID(int idUsuario);
 
