@@ -8,7 +8,7 @@ namespace senai_wishlist_webAPI.Intefaces
 {
     interface IWishlistRepository
     {
-        List<Wishlist> ListarTodos(int idWishlist);
+        List<Wishlist> ListarTodos();
 
         Wishlist BuscarPorID(int idWishlist);
 
