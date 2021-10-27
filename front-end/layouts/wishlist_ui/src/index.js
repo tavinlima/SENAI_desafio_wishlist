@@ -13,7 +13,7 @@ const routing = (
   < Router >
     <div>
       <Switch>
-        <Route path='/wishlist' component={wishlist}></Route>
+        <Route path='/' component={wishlist}></Route>
       </Switch>
       </div>
   </Router >
