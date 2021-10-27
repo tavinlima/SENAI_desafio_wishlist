@@ -26,13 +26,34 @@ Após inserir o seu id de usuário e escrever o seu desejo, aperte em 'escrever'
 
 ## Como executar:
 - O primeiro passo é clonar esse repositório na sua máquina. Dê um git clone em uma pasta do seu computador e puxe todo o conteúdo do repositório;
+![image](https://user-images.githubusercontent.com/82414372/139128745-bba16a45-dd0f-412d-8fc6-97a758427c19.png)
+![image](https://user-images.githubusercontent.com/82414372/139128823-ff065a72-ef85-4fa0-9a44-ce42be7597cd.png)
+![image](https://user-images.githubusercontent.com/82414372/139128835-9f3437e5-ddf4-4327-b7f7-596120011dec.png)
+
 - Abra o ssms no seu computador e abra os scripts localizados na pasta 'BD';
+![image](https://user-images.githubusercontent.com/82414372/139128879-e5c1a5df-51c4-4f09-acd2-bedcc02ea6ab.png)
+
 - Crie a database e execute os 3 scripts para conferir se está tudo funcionando;
+![image](https://user-images.githubusercontent.com/82414372/139128912-2a0d01ad-449a-4728-8d1d-c2006a4a1a10.png)
+![image](https://user-images.githubusercontent.com/82414372/139128924-15d6bb5a-6a3b-485c-b0d2-6274e43b5bbd.png)
+
 - Após o banco responder, abra o VS Code na solução que se encontra na pasta 'Back-End';
+![image](https://user-images.githubusercontent.com/82414372/139128954-b87169ab-c121-425c-8488-f2624bc919be.png)
+
 - Vá direto para a pasta de contexto e troque a string de conexão para a que conecte ao seu banco de dados (incluindo login e senha);
+![image](https://user-images.githubusercontent.com/82414372/139129620-e1cf95cf-d715-4acb-bea6-813dc181e65c.png)
+
 - Para não sobrecarregar o processamento, feche a aplicação e a partir da barra de endereço da pasta onde se encontram os aquivos, abra o cmd e digite 'dotnet run';
+![image](https://user-images.githubusercontent.com/82414372/139129151-62f419bb-dfff-4421-89fc-ebd0f64dded8.png)
+![image](https://user-images.githubusercontent.com/82414372/139129188-59ec8f60-0f21-4736-9c53-f4362eedd15f.png)
+![image](https://user-images.githubusercontent.com/82414372/139129203-c86aca5a-35c8-42c3-82c5-c632f47799f4.png)
+
 - Para abrir o front-end da aplicação, abra o cmd na pasta 'wishlist_ui' e de um 'npm i' para instalar todos os módulos utilizados na aplicação;
+![image](https://user-images.githubusercontent.com/82414372/139129252-b8b939d9-1cd0-4e95-b6b4-ed80a90f27a8.png)
+
 - Em seguida, digite 'npm start' para rodar a aplicação;
+![image](https://user-images.githubusercontent.com/82414372/139129295-278e15b6-7f1a-416a-80d3-7eff5589cd55.png)
+
 - Caso tudo esteja funcionando, essa tela irá aparecer:
 - Digite um id de usuário para relaciona-lo a um desejo;
 - Em seguida, digite seu desejo no campo e aperte em 'Enviar';
