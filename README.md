@@ -3,7 +3,7 @@ WishList serve como um caderno virtual para você mostrar a todos os seus desejo
 Após inserir o seu id de usuário e escrever o seu desejo, aperte em 'escrever' para enviá-lo para nosso sistema e inserí-lo na lista logo abaixo do cadastro.
 
 ## Integrantes da equipe
-- Enzzo 
+- Enzzo Teixeira - <a href='https://github.com/enzzotj'>enzzotj</a>
 - Erick Oliveira - <a href='https://github.com/z-eck'>z-eck</a>
 - Gustavo Lima - <a href='https://github.com/tavinlima'>tavinlima</a>
 - Vinicius Ramos
