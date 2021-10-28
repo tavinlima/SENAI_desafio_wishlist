@@ -16,6 +16,18 @@ namespace senai_wishlist_webAPI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //Adiciona o CORS ao projeto
+            services.AddCors(options => {
+                //para add uma politica de controle.
+                options.AddPolicy("CorsPolicy",
+                   builder =>
+                   {
+                       builder.WithOrigins("http://localhost:3000")
+                                             .AllowAnyHeader() //qualquer cabecalho
+                                    .AllowAnyMethod(); //vamos utilizar no post.(json)
+          });
+            });
+
             services
                 .AddControllers()
 
@@ -59,6 +71,8 @@ namespace senai_wishlist_webAPI
             app.UseAuthentication();
 
             app.UseAuthorization();
+
+            app.UseCors("CorsPolicy");
 
             app.UseEndpoints(endpoints =>
             {
