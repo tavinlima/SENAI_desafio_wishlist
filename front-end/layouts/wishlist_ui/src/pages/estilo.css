@@ -34,7 +34,7 @@ main{
 .container_id_desejo{
     width: 1200px;
     height: 235px;
-    background-color: white;
+    background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -46,18 +46,20 @@ main{
 .input_id {
     width: 120px;
     height: 50px;
-    font-family: 'Ribeye', cursive;
+    font-family: 'Indie Flower', cursive;
     font-size: 20px;
     border-radius: 10px;
     margin-left: 50px;
+    padding: 10px;
 }
 
 .input_desejo {
     width: 740px;
     height: 50px;
-    font-family: 'Ribeye', cursive;
+    font-family: 'Indie Flower', cursive;
     font-size: 20px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .button_desejo{
@@ -91,6 +93,10 @@ main{
 
 }
 
+h2{
+    font-size: 60px;
+}
+
 .container_resultado{
     width: 1200px;
     height: auto;
@@ -101,7 +107,8 @@ main{
     font-size: 33px;
     border-radius: 20px;
     margin-bottom: 60px;
-    padding-bottom: 15px;
+    padding: 60px;
+    padding-top: 30px;
 }
 
 .container_resultado_titulo{

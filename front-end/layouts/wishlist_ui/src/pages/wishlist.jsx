@@ -73,7 +73,7 @@ export default class wishlist extends Component {
                     <form onSubmit={this.inserirDesejo} className="container_id_desejo">
                         <div className="container_id">
                             <span>Meu Id é: </span>
-                            <input className="input_id" type="text" value={this.state.idUsuario} onChange={this.atualizaEstadoId}></input>
+                            <input className="input_id" type="number" value={this.state.idUsuario} onChange={this.atualizaEstadoId}></input>
                         </div>
                         <div className="container_desejo">
                             <span>Eu desejo: </span>
