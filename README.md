@@ -3,7 +3,7 @@ WishList serve como um caderno virtual para você mostrar a todos os seus desejo
 Após inserir o seu id de usuário e escrever o seu desejo, aperte em 'escrever' para enviá-lo para nosso sistema e inserí-lo na lista logo abaixo do cadastro.
 
 ## Integrantes da equipe
-- Enzzo 
+- Enzzo Teixeira - <a href='https://github.com/enzzotj'>enzzotj</a>
 - Erick Oliveira - <a href='https://github.com/z-eck'>z-eck</a>
 - Gustavo Lima - <a href='https://github.com/tavinlima'>tavinlima</a>
 - Vinicius Ramos
@@ -55,6 +55,12 @@ Após inserir o seu id de usuário e escrever o seu desejo, aperte em 'escrever'
 ![image](https://user-images.githubusercontent.com/82414372/139129295-278e15b6-7f1a-416a-80d3-7eff5589cd55.png)
 
 - Caso tudo esteja funcionando, essa tela irá aparecer:
+![image](https://user-images.githubusercontent.com/82414372/139176738-d4976a63-e9e3-48e1-aa8e-275febba33a0.png)
+
 - Digite um id de usuário para relaciona-lo a um desejo;
-- Em seguida, digite seu desejo no campo e aperte em 'Enviar';
+- Em seguida, digite seu desejo no campo e aperte em 'Enviar'
+![image](https://user-images.githubusercontent.com/82414372/139177004-19aa01e7-ecea-4599-a87a-e0819d53c884.png)
+
 - Se tudo estiver ok, seu desejo aparecerá logo em seguida no fim da lista!
+![image](https://user-images.githubusercontent.com/82414372/139177051-25f64d50-b276-46f3-911b-7a1fc6b99420.png)
+
