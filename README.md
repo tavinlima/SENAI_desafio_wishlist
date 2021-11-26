@@ -1,7 +1,7 @@
 # WishList -  Nos diga seu desejo✨
 - WishList serve como um caderno virtual para você mostrar a todos os seus desejos e aspirações.
 - Após inserir o seu id de usuário e escrever o seu desejo, aperte em 'escrever' para enviá-lo para nosso sistema e inserí-lo na lista logo abaixo do cadastro. A API é reponsável por fazer o contato entre o front-end e o banco de dados, fazendo também as requisições para cadastrar seu desejo em nosso banco de dados, e em seguida retornar para o usuário em forma de lista.
-- Com o intuito de deixar o usuário masi confortável, estilizamos nosso site com o objetivo de lembrar um caderno de anotações, com um ar mais nostálgico, como se fossemos escrever nossos desejos num caderno durante a infância.
+- Com o intuito de deixar o usuário mais confortável, estilizamos nosso site com o objetivo de lembrar um caderno de anotações, com um ar mais nostálgico, como se fossemos escrever nossos desejos num caderno durante a infância.
 
 ## Integrantes da equipe
 - Enzzo Teixeira - <a href='https://github.com/enzzotj'>enzzotj</a>
